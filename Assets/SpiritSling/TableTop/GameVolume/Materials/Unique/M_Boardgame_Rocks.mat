@@ -15,6 +15,7 @@ Material:
   m_ValidKeywords:
   - _FLOATINGMOVEMENT
   m_InvalidKeywords:
+  - _EMISSION
   - _ENABLEMOVE
   m_LightmapFlags: 2
   m_EnableInstancingVariants: 1
@@ -62,6 +63,7 @@ Material:
     - _CastShadows: 1
     - _Cull: 2
     - _DstBlend: 0
+    - _DstBlendAlpha: 0
     - _ENABLEMOVE: 1
     - _Emission_Intentisy: 1
     - _FLOATINGMOVEMENT: 1
@@ -76,6 +78,7 @@ Material:
     - _QueueOffset: 0
     - _Smoothness: 0
     - _SrcBlend: 1
+    - _SrcBlendAlpha: 1
     - _Surface: 0
     - _TilingTexture: 1
     - _Tiling_Main_Texture: 1.32
@@ -109,4 +112,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d0353a89b1f911e48b9e16bdc9f2e058, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  version: 9
+  version: 10
